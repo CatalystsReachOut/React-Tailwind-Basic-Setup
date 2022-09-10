@@ -39,6 +39,19 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+
+### Reference to remove Redux from the application
+
+## Global Changes
+Delete features folder in src
+Delete store.js in src/app
+
+## Changes to be made in index.js
+Remove <Provider> component from index.js and remove imports store and provider
+  
+ and you are done with only react and tailwind for the large scale application
+
+  
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
